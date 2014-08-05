@@ -1,39 +1,23 @@
 {
-  "name": "merchant-portal",
-  "description": "Portal for Bluume merchants.",
+  "name": "sfdc-ci-demo",
+  "description": "Test playground for setting up continuous integration with Salesforce.",
   "version": "0.0.1",
   "private": true,
   "author": {
     "name": "Jonathan Broquist",
-    "email": "jonathan@bluume.com",
-    "url": "http://www.bluume.com"
+    "email": "jonathan@jbro.io",
+    "url": "https//github.com/jbroquist"
   },
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "test": "grunt test"
-  },
   "dependencies": {
-    "express": "*",
-    "body-parser": "*",
-    "compression": "*",
-    "method-override": "*",
-    "serve-static": "*",
-    "morgan": "*",
-    "express-session": "*",
-    "errorhandler": "*",
-    "response-time": "*",
-    "cookie-parser": "*",
-    "express-jwt": "*",
-    "jsonwebtoken": "*",
-    "connect-mongodb": "*",
-    "q": "*",
-    "path": "*",
-    "passport": "*",
-    "passport-local": "*",
-    "mongoose": "*",
-    "bcrypt": "*",
-    "request": "*"
+    "express": "~4.7.2",
+    "morgan": "~1.2.2",
+    "errorhandler": "~1.1.1",
+    "response-time": "~2.0.0",
+    "q": "~1.0.1",
+    "jsforce": "~1.2.0",
+    "underscore": "~1.6.0",
+    "xmlbuilder": "~2.3.0"
   },
   "engines": {
     "node": "0.10.x",
